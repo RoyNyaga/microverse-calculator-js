@@ -1,9 +1,7 @@
-.generalBtn {
-	width: 100px;
-	height: 60px;
+.normal {
+	width: 25%;
 }
 
-.bigger-btn{
-	width: 200px;
-	height: 60px;
+.wider{
+	width: 50%;
 }

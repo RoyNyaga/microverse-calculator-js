@@ -9,7 +9,7 @@ import ButtonPanel from './ButtonPanel'
 class App extends React.Component {
   render () {
     return (
-      <div className='app-wrapper'>
+      <div className='app-wrapper container-fluid' id='app-wrapper-div'>
         <Display />
         <ButtonPanel />
       </div>

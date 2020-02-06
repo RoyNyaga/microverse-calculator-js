@@ -1,6 +1,9 @@
 #display {
-	width: 386px;
-	height: 80px;
-	background: black;
+	
+	height: 100px;
+	background: #949ca5;
 	color: white;
+	font-weight: bold;
+	padding: 10px;
+	text-align: right;
 }

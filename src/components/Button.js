@@ -4,13 +4,20 @@ import PropTypes from 'prop-types'
 import '../styles/Button.css'
 
 const Button = (props) => {
+  // var allowRegister = age > 18
+  console.log(props.wide)
+  const size = props.wide ? 'wider' : 'normal'
   return (
-    <button className={props.classNaming}>{props.name}</button>
+    <button style={{ backgroundColor: props.color }} className={size}>{props.name}</button>
   )
 }
 
 Button.propTypes = {
-  result: PropTypes.string
+  name: PropTypes.string
+}
+
+Button.defaultProps = {
+  color: 'orange'
 }
 
 export default Button

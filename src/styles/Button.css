@@ -1,9 +1,13 @@
-.generalBtn {
-	width: 100px;
-	height: 60px;
+.normal {
+	width: 25%;
 }
 
-.bigger-btn{
-	width: 200px;
-	height: 60px;
+.wider{
+	width: 50%;
+}
+
+button {
+	height: 100%;
+	border: 1px solid grey;
+	font-size: 1.5em;
 }

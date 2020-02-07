@@ -4,6 +4,7 @@ import '../styles/App.css'
 
 import Display from './Display'
 import ButtonPanel from './ButtonPanel'
+import calculator from '../logic/calculator'
 
 class App extends React.Component {
   render () {

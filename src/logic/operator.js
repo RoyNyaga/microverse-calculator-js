@@ -9,7 +9,12 @@ const operator = (numberOne, numberTwo, operation) => {
     case '-':
       return bigNumberOne.minus(bigNumberTwo).toString()
     case '/':
-      return bigNumberOne.div(bigNumberTwo).toString()
+      if (bigNumberTwo == '0') {
+        alert('operation is undefined')
+        return
+      } else {
+        return bigNumberOne.div(bigNumberTwo).toString()
+      }
     case 'x':
       return bigNumberOne.times(bigNumberTwo).toString()
     case '%':

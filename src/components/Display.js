@@ -5,7 +5,9 @@ import '../styles/Display.css'
 
 const Display = (props) => {
   return (
-    <h1 id='display'>{props.result}</h1>
+    <div id='display'>
+      <h1 id='display-input'>{props.result}</h1>
+    </div>
   )
 }
 

@@ -1,3 +1,13 @@
-.row {
+#button-panel {
+	display: flex;
+}
+
+#inner-panel{
+	background: red;
+	width: 100%;
+}
+
+.row{
 	height: 100px;
 }
+

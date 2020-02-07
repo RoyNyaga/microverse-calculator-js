@@ -1,3 +1,10 @@
-#app-wrapper-div {
-	width: 700px;
+.calc-wrapper {
+  background: blue;
+  width: 100%;
+}
+
+.app {
+  display: flex;
+  width: 700px;
+  margin: 0 auto;
 }

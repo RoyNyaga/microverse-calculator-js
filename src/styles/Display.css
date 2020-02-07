@@ -1,9 +1,13 @@
 #display {
-	
+	display: flex;
 	height: 100px;
 	background: #949ca5;
 	color: white;
 	font-weight: bold;
 	padding: 10px;
 	text-align: right;
+}
+
+#display-input{
+	width: 100%;
 }

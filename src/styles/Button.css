@@ -5,3 +5,8 @@
 .wider{
 	width: 50%;
 }
+
+button {
+	height: 100%;
+	border: 1px solid grey;
+}

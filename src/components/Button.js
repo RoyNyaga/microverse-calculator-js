@@ -6,7 +6,7 @@ import '../styles/Button.css'
 const Button = (props) => {
   const size = props.wide ? 'wider' : 'normal'
   return (
-    <button style={{ backgroundColor: props.color }} className={size}>{props.name}</button>
+    <button onClick={() => props.clickHandler(props.name)} style={{ backgroundColor: props.color }} className={size}>{props.name}</button>
   )
 }
 

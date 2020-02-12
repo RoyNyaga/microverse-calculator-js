@@ -1,24 +1,27 @@
 const Big = require('big.js')
 
 const operator = (numberOne, numberTwo, operation) => {
+  console.log(numberOne, 'one')
+  console.log(operation)
+  console.log(numberTwo, 'two')
   const bigNumberOne = Big(numberOne)
   const bigNumberTwo = Big(numberTwo)
   switch (operation) {
     case '+':
-      return bigNumberOne.plus(bigNumberTwo).toString()
+      return bigNumberTwo.plus(bigNumberOne).toString()
     case '-':
-      return bigNumberOne.minus(bigNumberTwo).toString()
-    case '/':
-      if (bigNumberTwo == '0') {
+      return bigNumberTwo.minus(bigNumberOne).toString()
+    case '÷':
+      if (bigNumberOne == '0') {
         alert('operation is undefined')
         return
       } else {
-        return bigNumberOne.div(bigNumberTwo).toString()
+        return bigNumberTwo.div(bigNumberOne).toString()
       }
-    case 'x':
-      return bigNumberOne.times(bigNumberTwo).toString()
+    case 'X':
+      return bigNumberTwo.times(bigNumberOne).toString()
     case '%':
-      return bigNumberOne.div(100).toString()
+      return bigNumberTwo.div(100).toString()
     default:
       return bigNumberTwo
   }
